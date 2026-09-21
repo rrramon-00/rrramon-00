@@ -1,7 +1,5 @@
 # CAR
 
-![Red Apple](https://wikimedia.org)
-
 $${\color{red}Red\ Apple}$$
 
 $${\color{cyan}Blue\ Blueberry}$$

@@ -2,7 +2,9 @@
 
 ![Red Apple](https://wikimedia.org)
 
-This is <span style="color:red">Red Text</span> inside a normal sentence.
+$${\color{red}Red\ Apple}$$
+
+$${\color{cyan}Blue\ Blueberry}$$
 
 ### Daily Tech Quote
 <!-- QUOTE_START -->

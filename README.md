@@ -1,6 +1,6 @@
 # CAR
 
-![Red Apple](apple.jpg)
+![Red Apple](https://wikimedia.org)
 
 This is $\color{red}{\text{Red Text}}$ inside a normal sentence.
 

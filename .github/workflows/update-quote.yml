@@ -1,6 +1,5 @@
 cat << 'EOF' > .github/workflows/update-quote.yml
 name: Update Profile Quote
-
 on:
   schedule:
     - cron: '0 0 * * *'

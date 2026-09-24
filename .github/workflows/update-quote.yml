@@ -17,14 +17,23 @@ jobs:
 
       - name: Fetch Tech Quote & Update README
         run: |
-          QUOTE_JSON=$(curl -s --connect-timeout 5 https://dummyjson.com || echo '{"quote":"Code is like humor. When you have to explain it, it is bad.","author":"Cory House"}')
-          RAW_QUOTE=$(echo "$QUOTE_JSON" | jq -r '.quote // "First, solve the problem. Then, write the code."')
-          RAW_AUTHOR=$(echo "$QUOTE_JSON" | jq -r '.author // "John Johnson"')
+          # Fetch the quote and save it directly to a file to prevent syntax quotes breaking bash
+          curl -s --connect-timeout 5 https://dummyjson.com > quote.json
           
-          # Replace text between markers in README.md
+          # Check if the file is empty or invalid; if so, create a safe fallback file
+          if [ ! -s quote.json ] || ! jq . quote.json >/dev/null 2>&1; then
+            echo '{"quote":"First, solve the problem. Then, write the code.","author":"John Johnson"}' > quote.json
+          fi
+          
+          RAW_QUOTE=$(jq -r '.quote' quote.json)
+          RAW_AUTHOR=$(jq -r '.author' quote.json)
+          
+          # Target the exact block markers in your README file
+          # Deletes old text between tags and replaces it cleanly
           sed -i '/<!-- QUOTE_START -->/,/<!-- QUOTE_END -->/{//!d}' README.md
-          sed -i '/<!-- QUOTE_START -->/a "'"$RAW_QUOTE"'" - '"$RAW_AUTHOR"'' README.md
+          sed -i '/<!-- QUOTE_START -->/a "*'"$RAW_QUOTE"'*" — '"$RAW_AUTHOR"'' README.md
           
+          # Push the modifications back into the repository
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@://github.com"
           git add README.md

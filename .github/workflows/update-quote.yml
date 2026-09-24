@@ -1,26 +1,32 @@
-cat << 'EOF' > .github/workflows/update-quote.yml
 name: Update Profile Quote
+
 on:
   schedule:
     - cron: '0 0 * * *'
   workflow_dispatch:
+
 permissions:
   contents: write
+
 jobs:
   refresh-quote:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+
       - name: Fetch Tech Quote & Update README
         run: |
           QUOTE_JSON=$(curl -s --connect-timeout 5 https://dummyjson.com || echo '{"quote":"Code is like humor. When you have to explain it, it is bad.","author":"Cory House"}')
           RAW_QUOTE=$(echo "$QUOTE_JSON" | jq -r '.quote // "First, solve the problem. Then, write the code."')
           RAW_AUTHOR=$(echo "$QUOTE_JSON" | jq -r '.author // "John Johnson"')
-          # Script logic to modify README goes here
+          
+          # Replace text between markers in README.md
+          sed -i '/<!-- QUOTE_START -->/,/<!-- QUOTE_END -->/{//!d}' README.md
+          sed -i '/<!-- QUOTE_START -->/a "'"$RAW_QUOTE"'" - '"$RAW_AUTHOR"'' README.md
+          
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@://github.com"
           git add README.md
           git commit -m "Automated daily quote update" || exit 0
           git push
-EOF

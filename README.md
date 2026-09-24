@@ -6,5 +6,5 @@ $${\color{cyan}Blue\ Blueberry}$$
 
 ### Daily Tech Quote
 <!-- QUOTE_START -->
-"*First, solve the problem. Then, write the code.*" — John Johnson
+*"Strength Does Not Come From Physical Capacity. It Comes From An Indomitable Will."* — Mahatma Gandhi
 <!-- QUOTE_END -->

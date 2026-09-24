@@ -6,5 +6,5 @@ $${\color{cyan}Blue\ Blueberry}$$
 
 ### Daily Tech Quote
 <!-- QUOTE_START -->
-"Stay hungry, stay foolish." - Steve Jobs
+"*First, solve the problem. Then, write the code.*" — John Johnson
 <!-- QUOTE_END -->

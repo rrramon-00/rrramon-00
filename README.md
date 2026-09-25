@@ -6,5 +6,5 @@ $${\color{cyan}Blue\ Blueberry}$$
 
 ### Daily Tech Quote
 <!-- QUOTE_START -->
-*"Strength Does Not Come From Physical Capacity. It Comes From An Indomitable Will."* — Mahatma Gandhi
+*"All Credibility, All Good Conscience, All Evidence Of Truth Come Only From The Senses."* — Friedrich Nietzsche
 <!-- QUOTE_END -->

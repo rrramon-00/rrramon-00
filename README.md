@@ -8,3 +8,4 @@ $${\color{cyan}Blue\ Blueberry}$$
 <!-- QUOTE_START -->
 *"I have been a seeker and I still am, but I stopped asking the books and the stars. I started listening to the teaching of my Soul."* — Rumi
 <!-- QUOTE_END -->
+{"type":"item","data":{"id":"19973820","type":"image"}}

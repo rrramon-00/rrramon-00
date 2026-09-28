@@ -6,5 +6,5 @@ $${\color{cyan}Blue\ Blueberry}$$
 
 ### Daily Tech Quote
 <!-- QUOTE_START -->
-*"There is no harm in patience, and no profit in lamentation. Death is easier to bear (than) that which precedes it, and more severe than that which comes after it. Remember the death of the Apostle of God, and your sorrow will be lessened."* — Abu Bakr (R.A)
+*"I have been a seeker and I still am, but I stopped asking the books and the stars. I started listening to the teaching of my Soul."* — Rumi
 <!-- QUOTE_END -->

@@ -6,7 +6,7 @@ $${\color{cyan}Blue\ Blueberry}$$
 
 ### Daily Tech Quote
 <!-- QUOTE_START -->
-*"Happiness comes towards those which believe in him."* — Ali ibn Abi Talib (R.A)
+*"For Where God Built A Church, There The Devil Would Also Build A Chapel."* — Martin Luther
 <!-- QUOTE_END -->
 <img width="992" height="662" alt="image" src="https://github.com/user-attachments/assets/1f780ced-2562-4109-80c9-9d4267d1748f" />
 𝕔𝕠𝕞𝕡𝕦𝕥𝕖𝕣

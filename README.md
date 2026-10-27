@@ -6,7 +6,7 @@ $${\color{cyan}Blue\ Blueberry}$$
 
 ### Daily Tech Quote
 <!-- QUOTE_START -->
-*"We Enjoy The Process Far More Than The Proceeds."* — Warren Buffett
+*"We must think and act like a nation of a billion people and not like that of a million people. Dream, dream, dream!"* — Abdul Kalam
 <!-- QUOTE_END -->
 <img width="992" height="662" alt="image" src="https://github.com/user-attachments/assets/1f780ced-2562-4109-80c9-9d4267d1748f" />
 𝕔𝕠𝕞𝕡𝕦𝕥𝕖𝕣

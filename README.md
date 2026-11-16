@@ -6,7 +6,7 @@ $${\color{cyan}Blue\ Blueberry}$$
 
 ### Daily Tech Quote
 <!-- QUOTE_START -->
-*"Politics Is For The Present, But An Equation Is For Eternity."* — Albert Einstein
+*"Many A Man Thinks He Is Buying Pleasure, When He Is Really Selling Himself To It."* — Benjamin Franklin
 <!-- QUOTE_END -->
 <img width="992" height="662" alt="image" src="https://github.com/user-attachments/assets/1f780ced-2562-4109-80c9-9d4267d1748f" />
 𝕔𝕠𝕞𝕡𝕦𝕥𝕖𝕣
